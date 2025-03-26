@@ -38,6 +38,8 @@ C'est avec le temps que l'ennemi prendra en force. (Il y a différentes phases a
 
 ## Empereur
 
+![moodboard_boss](https://github.com/user-attachments/assets/c59200dc-d6d4-4d58-a40b-ba1fed0533ff)
+
 ## Joueur
 
 ## Objet(s) à modeliser
