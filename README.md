@@ -46,6 +46,8 @@ C'est avec le temps que l'ennemi prendra en force. (Il y a différentes phases a
 
 ## Objet(s) à modeliser
 
+![moodboard_epee](https://github.com/user-attachments/assets/7bf56d68-512f-4b9c-b1a8-5b1f72a980e7)
+
 # Moodboard Sonore
 
 ## Ambiance sonore
