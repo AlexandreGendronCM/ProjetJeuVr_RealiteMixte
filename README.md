@@ -1,4 +1,4 @@
-# NOM DE JEU VIDÉASTE TRÈS COOL ET INSPIRANT
+# Le Tyran d'Émeraude
 Projet Jeu Vr du cours Réalité Mixte
 
 
