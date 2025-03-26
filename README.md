@@ -25,3 +25,23 @@ C'est avec le temps que l'ennemi prendra en force. (Il y a différentes phases a
 <li> Controller la vitesse de l'empreur (controlle la vitesse avec un fader) </li>
 <li> Déclencer les attaques de l'empreur (le jouer choisit quand l'empreur attaque)  </li>
 </ul>
+
+# Moodboards 
+
+## Environnement
+
+## Empreur
+
+## Joueur
+
+# Objet(s) à modeliser
+
+# Moodboard Sonore
+
+## Ambiance sonore
+
+## Bruitage
+
+# Carte
+
+# Schema d'Intéractivité
