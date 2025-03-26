@@ -28,7 +28,7 @@ C'est avec le temps que l'ennemi prendra en force. (Il y a différentes phases a
 
 # Moodboards 
 
-![moodboard_environnement](https://github.com/user-attachments/assets/e347346e-8b94-4c16-be3f-8886bbb66ca6)
+
 
 
 ## Environnement
