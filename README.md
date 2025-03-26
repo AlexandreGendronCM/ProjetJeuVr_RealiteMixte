@@ -17,10 +17,11 @@ C'est avec le temps que l'ennemi prendra en force. (Il y a différentes phases a
 <li> Attaquer à l'aide de son épée (balayer le bras en direction de la cible)  </li>
 <li> Se protéger des projectiles en adoptant une position de parade (se mettre en position de parade "Épée à 90deg") </li>
 <li> Esquiver les attaques ennemies (bouger à l'aide du joystick et/ou physiquement) </li>
-<ul>
+</ul>
+  
 ## Gameplay loop Exemple TouchDesigner
 <ul>
 <li> Controller l'environnement (le joueur peut enclencher des zones dangereuses en les sélectionnant sur une carte) </li>
 <li> Controller la vitesse de l'empreur (controlle la vitesse avec un fader) </li>
 <li> Déclencer les attaques de l'empreur (le jouer choisit quand l'empreur attaque)  </li>
-<ul>
+</ul>
