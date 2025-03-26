@@ -3,13 +3,13 @@ Projet Jeu Vr du cours Réalité Mixte
 
 
 
-Jouer en tant que le grand héros de guerre qui libérera le monde de l'emprise cruelle et machivélique de l'empreur en l'affrontant dans un duel féroce.
+Jouer en tant que le grand héros de guerre qui libérera le monde de l'emprise cruelle et machivélique de l'empereur en l'affrontant dans un duel féroce.
 
 # Description écrite
 
 
 
-Une expérience de VR qui permet à l'utilisateur de se mettre dans la peau d'un grand héro de guerre qui se retrouve face à face avec le grand empreur de la nation ennemie. C'est dans une battaille qui allie les mouvents offensifs et les maoeuvres défensives que le joueur devra apprendre à attaquer dans les moments de faiblesse de son adversaire, se protéger des projectiles ennemis et esquiver les menaces environementales.
+Une expérience de VR qui permet à l'utilisateur de se mettre dans la peau d'un grand héro de guerre qui se retrouve face à face avec le grand empereur de la nation ennemie. C'est dans une battaille qui allie les mouvents offensifs et les maoeuvres défensives que le joueur devra apprendre à attaquer dans les moments de faiblesse de son adversaire, se protéger des projectiles ennemis et esquiver les menaces environementales.
 C'est avec le temps que l'ennemi prendra en force. (Il y a différentes phases au boss de plus en plus complexes)
 
 ## Gameplay loop Exemple VR
@@ -22,8 +22,8 @@ C'est avec le temps que l'ennemi prendra en force. (Il y a différentes phases a
 ## Gameplay loop Exemple TouchDesigner
 <ul>
 <li> Controller l'environnement (le joueur peut enclencher des zones dangereuses en les sélectionnant sur une carte) </li>
-<li> Controller la vitesse de l'empreur (controlle la vitesse avec un fader) </li>
-<li> Déclencer les attaques de l'empreur (le jouer choisit quand l'empreur attaque)  </li>
+<li> Controller la vitesse de l'empereur (controlle la vitesse avec un fader) </li>
+<li> Déclencer les attaques de l'empereur (le jouer choisit quand l'empereur attaque)  </li>
 </ul>
 
 # Moodboards 
