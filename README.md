@@ -34,7 +34,7 @@ C'est avec le temps que l'ennemi prendra en force. (Il y a différentes phases a
 
 ## Joueur
 
-# Objet(s) à modeliser
+## Objet(s) à modeliser
 
 # Moodboard Sonore
 
