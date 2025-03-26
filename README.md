@@ -42,6 +42,8 @@ C'est avec le temps que l'ennemi prendra en force. (Il y a différentes phases a
 
 ## Joueur
 
+![moodboard_joueur](https://github.com/user-attachments/assets/dd98a224-63b8-4f10-9984-1a1a360c5438)
+
 ## Objet(s) à modeliser
 
 # Moodboard Sonore
