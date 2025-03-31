@@ -57,4 +57,6 @@ Le joueur est amené à traverser un donjon rempli de cranes maléfiques. Il doi
 
 # Carte
 
+![CarteDuJeuV1](./medias/MapProjetVr)
+
 # Schema d'Intéractivité
