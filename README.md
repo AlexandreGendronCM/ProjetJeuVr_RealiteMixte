@@ -58,6 +58,8 @@ Le joueur est amené à traverser un donjon rempli de cranes maléfiques. Il doi
 https://youtu.be/SwD4SDnL1xE
 <br>
 https://youtu.be/FJGdoPmspiU
+<br>
+https://youtu.be/tKm9lhP7cwo
 
 # Carte
 
