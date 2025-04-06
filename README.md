@@ -62,3 +62,4 @@ https://youtu.be/SwD4SDnL1xE
 ![CarteDuJeuV1](./medias/carte/MapProjetVr.png)
 
 # Schema d'Intéractivité
+![CarteJeux](./medias/carte/Diagramme_jeux.png)
