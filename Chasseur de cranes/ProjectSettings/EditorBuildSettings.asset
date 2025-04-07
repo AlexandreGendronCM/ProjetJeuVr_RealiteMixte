@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/OutdoorsScene.unity
     guid: 8124e5870f4fd4c779e7a5f994e84ad1
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d46eb2b83f6a14345a0e87c029f5cac9,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b2c809e6640fbf54da39b28abe96831b,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 92800ac1280d73c4fabb4c8f2106b4e5,
+      type: 2}
