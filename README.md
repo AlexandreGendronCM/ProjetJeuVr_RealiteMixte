@@ -37,7 +37,7 @@ Le joueur est amené à traverser un donjon rempli de cranes maléfiques. Il doi
 
 ![moodboard_environnement](./medias/moodboards/moodboards_visuels/moodboard_environnement.png)
 
-## Ennenis
+## Ennemis
 
 ![moodboard_ennemi](https://github.com/user-attachments/assets/2c3e234c-1d2b-4f53-a855-70cf6102007c)
 
