@@ -3,11 +3,11 @@ Projet Jeu Vr du cours Réalité Mixte
 
 
 
-Jouer en tant qu'aventurier pris au piège dans un donjon. Il devra survivre aux nombreux ennemis qui cherchent à le vaincre et atteidre la sortie en vie.
+Jouer en tant qu'aventurier pris au piège dans un donjon. Il devra survivre aux nombreux ennemis qui cherchent à le vaincre et atteindre la sortie en vie.
 
 # Description écrite
 
-Le joueur est amené à traverser un donjon rempli de cranes maléfiques. Il doit se diriger vers la sortie en se battant contre les hordes d'ennemis. Dans les différentes zones du jeu, le joueur devra vaincre les cranes en les touchant avec son arme (ou ses poings) et devra se défendre face à leur assaut (projectile de feu) en bloquant ou en esquivant.
+Le joueur est amené à traverser un donjon rempli de crânes maléfiques. Il doit se diriger vers la sortie en se battant contre les hordes d'ennemis. Dans les différentes zones du jeu, le joueur devra vaincre les crânes en les touchant avec son arme (ou ses poings) et devra se défendre face à leur assaut (projectile de feu) en bloquant ou en esquivant.
 
 
 
@@ -22,9 +22,9 @@ Le joueur est amené à traverser un donjon rempli de cranes maléfiques. Il doi
 ## Gameplay loop Exemple TouchDesigner
 
 <ul>
-<li> Controller la vitesse des cranes (controlle la vitesse avec un fader) </li>
-<li> Déclencer les attaques des cranes (le jouer choisit quand les cranes attaquent)  </li>
-<li> Controller l'environnement ?? (le joueur peut enclencher des zones dangereuses en les sélectionnant sur une carte) </li>
+<li> Contrôler la vitesse des crânes (contrôle la vitesse avec un fader) </li>
+<li> Déclencher les attaques des crânes (le joueur choisit quand les crânes attaquent)  </li>
+<li> Contrôler l'environnement (le joueur peut enclancher des zones dangereuses en les sélectionnant sur une carte) </li>
 </ul>
 
 # Moodboards 
