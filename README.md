@@ -1,4 +1,4 @@
-# EN CONSTRUCTION
+# Chasseur de 💀
 Projet Jeu Vr du cours Réalité Mixte
 
 
