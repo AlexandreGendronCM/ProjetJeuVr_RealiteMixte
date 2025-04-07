@@ -75,3 +75,4 @@ https://youtu.be/JeRaKBQrxmg
 
 # Schema d'Intéractivité
 ![CarteJeux](./medias/carte/dia_jeux.png)
+![CarteJeu](./medias/carte/dia.png)
