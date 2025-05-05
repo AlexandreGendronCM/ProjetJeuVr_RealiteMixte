@@ -26,6 +26,7 @@ public class AgentNavigation : MonoBehaviour
         agent.acceleration = 8f; // Ajuste l'accélération pour un déplacement fluide
     }
 
+
     void Update()
     {
         // Si la cible est définie, l'agent se déplace vers la position de la cible
@@ -39,7 +40,7 @@ public class AgentNavigation : MonoBehaviour
             }
 
             // Optionnel : Affiche la position de la cible dans la console pour déboguer
-            Debug.Log("Destination actuelle de l'ennemi : " + agent.destination);
+            
         }
     }
 }
