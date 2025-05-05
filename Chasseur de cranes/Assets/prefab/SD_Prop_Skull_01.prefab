@@ -361,6 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c86ad40ffd6467947b890c9c704bcc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cranes: 20
 --- !u!195 &2587907556009519066
 NavMeshAgent:
   m_ObjectHideFlags: 0
