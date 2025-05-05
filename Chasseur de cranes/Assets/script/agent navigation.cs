@@ -21,9 +21,9 @@ public class AgentNavigation : MonoBehaviour
         }
 
         // Assure-toi que le NavMeshAgent est bien configuré
-        agent.speed = 3.5f; // Ajuste la vitesse selon tes besoins
+        agent.speed = 2f; // Ajuste la vitesse selon tes besoins
         agent.angularSpeed = 120f; // Ajuste la vitesse de rotation pour un meilleur mouvement
-        agent.acceleration = 8f; // Ajuste l'accélération pour un déplacement fluide
+        agent.acceleration = 1f; // Ajuste l'accélération pour un déplacement fluide
     }
 
     void Update()
@@ -39,7 +39,7 @@ public class AgentNavigation : MonoBehaviour
             }
 
             // Optionnel : Affiche la position de la cible dans la console pour déboguer
-            Debug.Log("Destination actuelle de l'ennemi : " + agent.destination);
+          
         }
     }
 }

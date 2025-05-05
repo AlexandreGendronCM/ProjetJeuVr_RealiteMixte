@@ -7,6 +7,11 @@ TagManager:
   - crane
   - epee
   - joueur
+  - zone_1
+  - spawn
+  - zone_2
+  - zone_3
+  - zone_4
   layers:
   - Default
   - TransparentFX
