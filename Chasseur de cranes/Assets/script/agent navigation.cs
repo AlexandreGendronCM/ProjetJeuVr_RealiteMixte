@@ -21,9 +21,9 @@ public class AgentNavigation : MonoBehaviour
         }
 
         // Assure-toi que le NavMeshAgent est bien configuré
-        agent.speed = 2f; // Ajuste la vitesse selon tes besoins
+        agent.speed = 50f; // Ajuste la vitesse selon tes besoins
         agent.angularSpeed = 120f; // Ajuste la vitesse de rotation pour un meilleur mouvement
-        agent.acceleration = 1f; // Ajuste l'accélération pour un déplacement fluide
+        agent.acceleration = 2f; // Ajuste l'accélération pour un déplacement fluide
     }
 
     void Update()

@@ -42,7 +42,7 @@ public class attaque : MonoBehaviour
         previousPosition2 = currentPosition2;
 
 
-
+        Debug.Log(counter);
         int currentScore = cranes - counter;
         score.text = "Score: " + currentScore;
     }
@@ -56,12 +56,14 @@ public class attaque : MonoBehaviour
             {
                 // Si la vélocité est suffisante, désactive l'objet
                 gameObject.SetActive(false);
+                Debug.Log("Audio lancé");
                 reussi.Play();
                 counter++;
                 Debug.Log("Compteur: " + counter);
             }
             else
             {
+                Debug.Log("Audio lancé");
                 rate.Play();
             }
         }
