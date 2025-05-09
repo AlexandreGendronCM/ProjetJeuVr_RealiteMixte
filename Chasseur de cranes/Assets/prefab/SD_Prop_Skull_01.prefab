@@ -251,12 +251,12 @@ GameObject:
   - component: {fileID: 4504711670657926659}
   - component: {fileID: 6642876710906002957}
   - component: {fileID: 8177894513409902793}
-  - component: {fileID: 684399839359327109}
   - component: {fileID: 2587907556009519066}
   - component: {fileID: 645009111337406348}
   - component: {fileID: 7754873340680154859}
   - component: {fileID: 6437410744357524559}
   - component: {fileID: -1206208094786119631}
+  - component: {fileID: -2923778456173066669}
   m_Layer: 0
   m_Name: SD_Prop_Skull_01
   m_TagString: crane
@@ -352,28 +352,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.65194565, y: 0.8028417, z: 0.78938544}
   m_Center: {x: 0, y: 0.44379744, z: 0.00008702279}
---- !u!114 &684399839359327109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6959996542072187239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c86ad40ffd6467947b890c9c704bcc9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  counter: 0
-  cranes: 20
-  score: {fileID: 0}
-  vies: 3
-  epee: {fileID: 0}
-  epee2: {fileID: 0}
-  joueur: {fileID: 0}
-  rate: {fileID: 0}
-  reussi: {fileID: 0}
-  seuilVitesse: 5
 --- !u!195 &2587907556009519066
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -620,6 +598,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-2923778456173066669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6959996542072187239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6660c35f06588a44ebf75448784ddbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counter: 0
+  cranes: 0
+  score: {fileID: 0}
+  epee: {fileID: 0}
+  epee2: {fileID: 0}
+  joueur: {fileID: 0}
+  rate: {fileID: 0}
+  reussi: {fileID: 0}
+  seuilVitesse: 1
 --- !u!1001 &2389255752340727942
 PrefabInstance:
   m_ObjectHideFlags: 0
