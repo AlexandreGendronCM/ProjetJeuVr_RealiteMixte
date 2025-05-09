@@ -43417,6 +43417,36 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 697546303}
     m_Modifications:
+    - target: {fileID: -2923778456173066669, guid: 698e76f8c2a701541b6240e3e837a903,
+        type: 3}
+      propertyPath: epee
+      value: 
+      objectReference: {fileID: 19192511}
+    - target: {fileID: -2923778456173066669, guid: 698e76f8c2a701541b6240e3e837a903,
+        type: 3}
+      propertyPath: rate
+      value: 
+      objectReference: {fileID: 1929325201}
+    - target: {fileID: -2923778456173066669, guid: 698e76f8c2a701541b6240e3e837a903,
+        type: 3}
+      propertyPath: epee2
+      value: 
+      objectReference: {fileID: 200414710}
+    - target: {fileID: -2923778456173066669, guid: 698e76f8c2a701541b6240e3e837a903,
+        type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1465257324}
+    - target: {fileID: -2923778456173066669, guid: 698e76f8c2a701541b6240e3e837a903,
+        type: 3}
+      propertyPath: joueur
+      value: 
+      objectReference: {fileID: 7982623137746938669}
+    - target: {fileID: -2923778456173066669, guid: 698e76f8c2a701541b6240e3e837a903,
+        type: 3}
+      propertyPath: reussi
+      value: 
+      objectReference: {fileID: 512440979}
     - target: {fileID: 645009111337406348, guid: 698e76f8c2a701541b6240e3e837a903,
         type: 3}
       propertyPath: objetCible
