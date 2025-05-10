@@ -18,8 +18,9 @@ public class vies : MonoBehaviour
         // Set slider max and current value
         if (lifeSlider != null)
         {
-            lifeSlider.maxValue = vie;
+            lifeSlider.maxValue = 3;
             lifeSlider.value = vie;
+            lifeSlider.minValue = 0;
         }
     }
 
@@ -38,6 +39,7 @@ public class vies : MonoBehaviour
 
         if (lifeSlider != null)
             lifeSlider.value = vie;
+            Debug.Log(lifeSlider.value);
 
         if (hitSound != null)
             hitSound.Play();
