@@ -7,7 +7,7 @@ public class attaque2 : MonoBehaviour
 {
    
     public int counter;
-    public int cranes;
+    public int cranes = 10;
     public TextMeshProUGUI score;
     public GameObject epee;
     public GameObject epee2;
@@ -45,11 +45,6 @@ public class attaque2 : MonoBehaviour
         previousPosition = currentPosition;
         previousPosition2 = currentPosition2;
 
-
-       
-        int currentScore = cranes - counter;
-        score.text = "Score: " + currentScore;
-
         if (!lightActivated && AllCranesAreInactive())
         {
         tresor.SetActive(true);;
@@ -65,12 +60,9 @@ public class attaque2 : MonoBehaviour
             
             if (velocity >= seuilVitesse || velocity2 >= seuilVitesse)  
             {
-                
                 gameObject.SetActive(false);
                 Debug.Log("Audio lance");
                 reussi.Play();
-                counter++;
-                Debug.Log("Compteur: " + counter);
             }
             else
             {
@@ -92,4 +84,34 @@ public class attaque2 : MonoBehaviour
     }
     return true;
     }
+
+    //score en bas
+
+    public void CraneDisabled()
+    {
+    UpdateCounterFromCranes();
+    }
+
+    void UpdateScore()
+    {
+    int currentScore = cranes - counter;
+    score.text = "Score: " + currentScore;
+    }
+
+    public void UpdateCounterFromCranes()
+    {
+    GameObject[] cranes = GameObject.FindGameObjectsWithTag("crane");
+    counter = 0;
+
+    foreach (GameObject crane in cranes)
+    {
+        if (!crane.activeInHierarchy)
+        {
+            counter++;
+        }
+    }
+
+    UpdateScore(); 
+    }
+    
 }
