@@ -6,7 +6,7 @@ using System.Collections;
 public class vies : MonoBehaviour
 {
     public int vie = 3;
-    public float invincibilityDuration = 1.5f;
+    public float invincibilityDuration = 2f;
     private bool isInvincible = false;
 
     public Image damageFlash;
@@ -63,4 +63,5 @@ public class vies : MonoBehaviour
             isInvincible = false;
         }
     }
+
 }

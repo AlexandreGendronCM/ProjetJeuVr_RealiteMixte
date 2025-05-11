@@ -12,6 +12,9 @@ TagManager:
   - zone_2
   - zone_3
   - zone_4
+  - tresor
+  - main_droite
+  - main_gauche
   layers:
   - Default
   - TransparentFX

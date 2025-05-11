@@ -14,6 +14,11 @@ public class attaque2 : MonoBehaviour
     public GameObject joueur;
     public AudioSource rate;
     public AudioSource reussi;
+    public GameObject tresor; 
+    public Light tresorLight; 
+    public bool lightActivated = false;
+    public AudioSource ambiance;
+    public AudioSource fin;
     
     public float seuilVitesse = 1f;  
 
@@ -44,9 +49,16 @@ public class attaque2 : MonoBehaviour
        
         int currentScore = cranes - counter;
         score.text = "Score: " + currentScore;
-    }
 
-    public void OnTriggerEnter(Collider other)
+        if (!lightActivated && AllCranesAreInactive())
+        {
+        tresor.SetActive(true);;
+        lightActivated = true;
+        ambiance.Stop();
+        fin.Play();
+        }
+    }
+    void OnTriggerEnter(Collider other)
     {
         if (other.tag == "epee")
         {
@@ -69,4 +81,15 @@ public class attaque2 : MonoBehaviour
 
        
     }
-}
+
+    bool AllCranesAreInactive()
+    {
+    GameObject[] cranes = GameObject.FindGameObjectsWithTag("crane");
+    foreach (GameObject crane in cranes)
+    {
+        if (crane.activeInHierarchy)
+            return false;
+    }
+    return true;
+    }
+}
