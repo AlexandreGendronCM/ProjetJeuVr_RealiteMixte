@@ -6,7 +6,7 @@ using TMPro;
 public class attaque2 : MonoBehaviour
 {
     public int counter;        // Number of disabled cranes
-    public int cranes;         // Total number of cranes at the start
+    public int cranes = 10;         // Total number of cranes at the start
     public TextMeshProUGUI score;
     public GameObject epee;
     public GameObject epee2;
