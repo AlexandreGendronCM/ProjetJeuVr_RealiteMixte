@@ -22550,6 +22550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   counter: 0
   totalCranes: 10
+  score: 10
   highScoreManager: {fileID: 517025656}
 --- !u!4 &692860189
 Transform:
