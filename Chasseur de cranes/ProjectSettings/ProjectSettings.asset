@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: TIM
   productName: Chasseur de cranes
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -140,7 +140,9 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: -5521817506619456901, guid: b2c809e6640fbf54da39b28abe96831b, type: 2}
+  - {fileID: -2218345867865946102, guid: 92800ac1280d73c4fabb4c8f2106b4e5, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
