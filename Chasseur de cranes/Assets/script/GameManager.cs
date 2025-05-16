@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
 
     public void CraneDestroyed()
     {
-        counter--;
+        counter++;
         score = counter;
 
         if (highScoreManager != null)

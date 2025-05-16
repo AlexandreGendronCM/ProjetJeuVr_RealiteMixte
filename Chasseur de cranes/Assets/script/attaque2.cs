@@ -160,8 +160,8 @@ public class attaque2 : MonoBehaviour
             if (crane2.activeInHierarchy)
                 return false;
         }
-        return true;
         sonBoss.Play();
+        return true;
     }
 
     bool cranesWave3Inactive()
@@ -172,8 +172,8 @@ public class attaque2 : MonoBehaviour
             if (crane3.activeInHierarchy)
                 return false;
         }
-        return true;
         sonBoss.Play();
+        return true;
     }
 
     public void BossFight() 

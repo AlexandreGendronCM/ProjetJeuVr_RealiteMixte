@@ -32,6 +32,14 @@ public class osc_script : MonoBehaviour
     public UnityEngine.AI.NavMeshAgent crane8;
     public UnityEngine.AI.NavMeshAgent crane9;
     public UnityEngine.AI.NavMeshAgent crane10;
+    public UnityEngine.AI.NavMeshAgent crane11;
+    public UnityEngine.AI.NavMeshAgent crane12;
+    public UnityEngine.AI.NavMeshAgent crane13;
+    public UnityEngine.AI.NavMeshAgent crane14;
+    public UnityEngine.AI.NavMeshAgent crane15;
+    public UnityEngine.AI.NavMeshAgent crane16;
+    public UnityEngine.AI.NavMeshAgent crane17;
+    public UnityEngine.AI.NavMeshAgent crane18;
 
     private void Start()
     {
@@ -175,6 +183,46 @@ public class osc_script : MonoBehaviour
                 if (crane10 != null)
                 {
                     crane10.speed = valueVitesse;
+                }
+
+                if (crane11 != null)
+                {
+                    crane1.speed = valueVitesse;
+                }
+
+                if (crane12 != null)
+                {
+                    crane1.speed = valueVitesse;
+                }
+
+                if (crane13 != null)
+                {
+                    crane1.speed = valueVitesse;
+                }
+
+                if (crane14 != null)
+                {
+                    crane1.speed = valueVitesse;
+                }
+
+                if (crane15 != null)
+                {
+                    crane1.speed = valueVitesse;
+                }
+
+                if (crane16 != null)
+                {
+                    crane1.speed = valueVitesse;
+                }
+
+                if (crane17 != null)
+                {
+                    crane1.speed = valueVitesse;
+                }
+
+                if (crane18 != null)
+                {
+                    crane1.speed = valueVitesse;
                 }
             }
         }
