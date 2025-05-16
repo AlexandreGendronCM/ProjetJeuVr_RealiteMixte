@@ -27,6 +27,27 @@ public class attaque2 : MonoBehaviour
     private float velocity;
     private float velocity2;
 
+    public GameObject crane11;
+    public GameObject crane12;
+    public GameObject crane13;
+    public GameObject crane14;
+    public GameObject crane15;
+    public GameObject crane16;
+    public GameObject crane17;
+    public GameObject crane18;
+  
+
+    public GameObject boss;
+    public int vieBoss = 2;
+    public bool bossHitWave2 = false;
+    public bool bossHitWave3 = false;
+
+    public finPartie finPartieScript;
+
+    public AudioSource musiqueBoss;
+    public AudioSource sonBoss;
+
+
     void Start()
     {
         previousPosition = epee.transform.position;
@@ -50,7 +71,6 @@ public class attaque2 : MonoBehaviour
             tresor.SetActive(true);
             lightActivated = true;
             ambiance.Stop();
-            fin.Play();
         }
     }
 
@@ -66,23 +86,103 @@ public class attaque2 : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other)
+{
+    if (other.tag == "epee")
     {
-        if (other.tag == "epee")
+        if (velocity >= seuilVitesse || velocity2 >= seuilVitesse)
         {
-            if (velocity >= seuilVitesse || velocity2 >= seuilVitesse)
+            if (gameObject.CompareTag("crane"))
             {
                 gameObject.SetActive(false);
-                Debug.Log("Audio lance");
                 reussi.Play();
                 GameManager.Instance.CraneDestroyed();
+            }
 
-                
-            }
-            else
+            else if (gameObject.CompareTag("crane2"))
             {
-                Debug.Log("Audio lance");
-                rate.Play();
+                gameObject.SetActive(false);
+                reussi.Play();
+                GameManager.Instance.CraneDestroyed();
             }
+
+            else if (gameObject.CompareTag("crane3"))
+            {
+                gameObject.SetActive(false);
+                reussi.Play();
+                GameManager.Instance.CraneDestroyed();
+            }
+            else if (gameObject == boss)
+{
+    if (cranesWave2Inactive() && !bossHitWave2)
+    {
+        reussi.Play();
+        vieBoss = 1;
+        bossHitWave2 = true;
+        crane15.SetActive(true);
+        crane16.SetActive(true);
+        crane17.SetActive(true);
+        crane18.SetActive(true);
+    }
+    else if (!cranesWave2Inactive())
+    {
+        rate.Play();
+    }
+
+    if (cranesWave3Inactive() && !bossHitWave3)
+    {
+        reussi.Play();
+        vieBoss = 0;
+        bossHitWave3 = true;
+        boss.SetActive(false);
+        finPartieScript.RestartScene();
+        musiqueBoss.Stop();
+        fin.Play();
+    }
+    else if (!cranesWave3Inactive())
+    {
+        rate.Play();
+    }
+}
+
         }
+        else
+        {
+            rate.Play();
+        }
+    }
+}
+
+    bool cranesWave2Inactive()
+    {
+        GameObject[] cranes2 = GameObject.FindGameObjectsWithTag("crane2");
+         foreach (GameObject crane2 in cranes2)
+        {
+            if (crane2.activeInHierarchy)
+                return false;
+        }
+        return true;
+        sonBoss.Play();
+    }
+
+    bool cranesWave3Inactive()
+    {
+        GameObject[] cranes3 = GameObject.FindGameObjectsWithTag("crane3");
+         foreach (GameObject crane3 in cranes3)
+        {
+            if (crane3.activeInHierarchy)
+                return false;
+        }
+        return true;
+        sonBoss.Play();
+    }
+
+    public void BossFight() 
+    {
+        musiqueBoss.Play();
+        boss.SetActive(true);
+        crane11.SetActive(true);
+        crane12.SetActive(true);
+        crane13.SetActive(true);
+        crane14.SetActive(true);
     }
 }

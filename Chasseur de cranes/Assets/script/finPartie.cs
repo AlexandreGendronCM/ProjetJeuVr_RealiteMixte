@@ -25,7 +25,7 @@ public class finPartie : MonoBehaviour
         
     }
 
-    void RestartScene()
+    public void RestartScene()
     {
         canvas_fin.SetActive(true);
     }

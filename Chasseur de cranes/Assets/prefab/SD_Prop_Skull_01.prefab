@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7816856342332434393}
   - component: {fileID: 5010854067351817185}
   - component: {fileID: 8464487819164058251}
-  - component: {fileID: 3923317004519564715}
   m_Layer: 0
   m_Name: Point Light (1)
   m_TagString: Untagged
@@ -218,27 +217,6 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
---- !u!65 &3923317004519564715
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5467593787006373654}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6959996542072187239
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,7 +589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: 0
-  cranes: 0
+  cranes: 10
   score: {fileID: 0}
   epee: {fileID: 0}
   epee2: {fileID: 0}
@@ -625,6 +603,21 @@ MonoBehaviour:
   fin: {fileID: 0}
   pointage: {fileID: 0}
   seuilVitesse: 1
+  crane11: {fileID: 0}
+  crane12: {fileID: 0}
+  crane13: {fileID: 0}
+  crane14: {fileID: 0}
+  crane15: {fileID: 0}
+  crane16: {fileID: 0}
+  crane17: {fileID: 0}
+  crane18: {fileID: 0}
+  boss: {fileID: 0}
+  vieBoss: 2
+  bossHitWave2: 0
+  bossHitWave3: 0
+  finPartieScript: {fileID: 0}
+  musiqueBoss: {fileID: 0}
+  sonBoss: {fileID: 0}
 --- !u!1001 &2389255752340727942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -706,11 +699,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7590641043792337055, guid: a8631dd9655a76e4298ba27146a76e21,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8676131768911872952}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8631dd9655a76e4298ba27146a76e21, type: 3}
 --- !u!4 &5223903701477902159 stripped
 Transform:
@@ -718,30 +707,3 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2389255752340727942}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5223903702014619673 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7590641043792337055, guid: a8631dd9655a76e4298ba27146a76e21,
-    type: 3}
-  m_PrefabInstance: {fileID: 2389255752340727942}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &8676131768911872952
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5223903702014619673}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3.4193149, y: 3.7856286, z: 3.4134254}
-  m_Center: {x: 0.005282402, y: 0.303782, z: -0.007171631}

@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public int counter = 10;
+    public int counter = 18;
     public int totalCranes = 10;
     public int score = 10;
     public HighScorePersistant highScoreManager;
@@ -18,8 +18,8 @@ public class GameManager : MonoBehaviour
 
     public void CraneDestroyed()
     {
-        counter++;
-        score = 10 - counter;
+        counter--;
+        score = counter;
 
         if (highScoreManager != null)
         {
