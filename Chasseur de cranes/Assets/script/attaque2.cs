@@ -128,7 +128,7 @@ public class attaque2 : MonoBehaviour
         rate.Play();
     }
 
-    if (cranesWave3Inactive() && !bossHitWave3)
+    if (cranesWave2Inactive() && cranesWave3Inactive() && !bossHitWave3)
     {
         reussi.Play();
         vieBoss = 0;
